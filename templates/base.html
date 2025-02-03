@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Creates the illusion that it is a mobile app --> 
+    <title>Flask To-Do</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"> <!-- Imports The Bootstrap CSS -->
+    <style>
+        body {
+            background-color: #1e1e2e; /* Dark background like Pomofocus */
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .app-container {
+            width: 90%;
+            max-width: 400px; /* Keeps it mobile-friendly */
+            background-color: #2d2d3a;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .btn {
+            width: 100%;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            padding: 10px;
+        }
+        /* Red hover effect for the delete icon */
+        .delete-icon:hover {
+        color: #ff6b6b !important;
+        cursor: pointer;
+        }
+        /* Task card hover effect */
+        .task-card:hover {
+        background-color: #2a2a38 !important; /* Slightly lighter on hover */
+        transition: 0.2s ease-in-out;
+        }
+        .btn-danger {
+        padding: 4px 8px; /* Smaller padding */
+        font-size: 1rem; /* Adjust font size */
+        }
+        .btn-success {
+            padding: 4px 8px;
+            font-size: 1rem;
+        }
+        .task-title {
+        display: block;       /* Makes the link a block element */
+        color: white;         /* Keeps the text white */
+        text-decoration: none;
+        }
+
+        .task-title:hover {
+        text-decoration: underline;  /* Underline on hover for better UX */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        {% block content %}{% endblock %} <!-- We can place all of our other content in between this base, and it will render with our chosen style -->
+    </div>
+</body>
+</html>
