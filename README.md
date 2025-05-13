@@ -12,9 +12,6 @@ Project part of assignment. But future imporovements will look at:
 5. Creating scripting that could format tasks better if there are a lot of them, meaning adding a drop down button for loading more tasks.
 6. In general the app looks more like a phone app, but could be nice to make it more impressive for desktops.
 
-Otherwise enjoy, hope you find it useful. Please see some images of the functionality.
-![image](https://github.com/user-attachments/assets/f0fe96a4-1998-47e2-934d-7a45c8681122)
-![image](https://github.com/user-attachments/assets/1aa7b600-0a17-4640-a676-2304dfc37b71)
-![image](https://github.com/user-attachments/assets/7826b9fc-b785-4025-89b6-bc48d7b7e690)
+Otherwise enjoy, hope you find it useful.
 
-
+![hippo](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGZ6emN1bGFtbDdlZ3pmbGZ5cHd1bTRxNGpuZmQyNXpkNHQycmgyeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LYkxj48CsVJhWhNLG5/giphy.gif)
